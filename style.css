@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #7f00ff, #e100ff, #ffafbd);
+    font-family: Poppins, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.player-box {
+    margin: 30px auto;
+    width: 340px;
+    padding: 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+.cover {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+#progress {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.controls button {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    color: #7f00ff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.real-title {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.real-music {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 25px;
+}
